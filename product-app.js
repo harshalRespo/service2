@@ -5,7 +5,7 @@ require('dotenv').config()
 
 // Define a route for the root URL
 app.get('/', (req, res) => {
-    res.send('Hello, World! from product service');
+    res.send('Hello, World! from product services');
 });
 
 // Specify the port to listen on
