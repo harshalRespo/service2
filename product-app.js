@@ -17,6 +17,7 @@ require('dotenv').config()
 
 // app.use(`${serviceRootContext}`, limiter)
 app.get('/product-service/api/v2/', function (req, res) {
+    console.log('hello from product service')
     res.send('Hello from product service !!')
 })
 
